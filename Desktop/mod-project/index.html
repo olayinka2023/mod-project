@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shopping Cart</title>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width,
+initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+  <h1>Shopping Cart</h1>
+
+  <div id="cart">
+    <h2>Your Cart</h2>
+    <ul id="item-list"></ul>
+  </div>
+
+  <div id="products">
+    <h2>Available Products</h2>
+    <ul>
+      <li>Product 1 : Banana <button onclick="addItem('Banana')">Add</button></li>
+      <li>Product 2 : Mango <button onclick="addItem('Mango')">Add</button></li>
+      <li>Product 3 : Pineapple <button onclick="addItem('Pineapple')">Add</button></li>
+    </ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

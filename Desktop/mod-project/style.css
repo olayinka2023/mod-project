@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(231, 19, 128);
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  #cart {
+    border: 1px solid #981a1a;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: rgb(231, 17, 103);
+  }
+  
+  #products {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: rgb(158, 198, 47);
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: green;
+  }
+  
